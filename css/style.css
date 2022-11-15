@@ -1,0 +1,122 @@
+* {
+   font-family: consolas, monospace;
+}
+
+body {
+   margin: 0;
+   background-color: #ddd;
+}
+
+h1, h2, h3, h4, h5, h6, p, table {
+   margin: 4px 0 0 0;
+}
+
+input {
+   margin: 4px;
+}
+
+input[type=number] {
+   width: 60px;
+}
+
+input[type=text] {
+   width: 120px;
+}
+
+input[type=submit], button {
+   color: #fff;
+   background-color: #208820;
+   border: 0 solid transparent;
+   padding: 3px 8px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover, button:hover {
+   background-color: #409040;
+}
+
+.btn-imp {
+   background-color: #882020 !important;
+}
+
+.btn-imp:hover {
+   background-color: #904040 !important;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+th, td {
+   border: 1px solid #ddd;
+   padding: 4px;
+   text-align: left;
+}
+
+tr:nth-child(odd) td {
+   background-color: #eee;
+}
+
+tr:hover td {
+   background-color: #abffab;
+}
+
+th {
+   color: #fff;
+   background-color: #208820;
+}
+
+#wrap {
+   width: 960px;
+   background-color: #fff;
+   margin: 0 auto;
+}
+
+#title, #nav {
+   color: #fff;
+}
+
+#title {
+   padding: 25px 8px 8px 8px;
+   background-color: #208820;
+}
+
+#nav {
+   display: flex;
+   background-color: #106010;
+}
+
+#nav a {
+   display: block;
+   color: #fff;
+   padding: 4px 8px;
+   text-decoration: none;
+   font-size: 18px;
+   border-right: 1px solid #fff;
+}
+
+#nav a:hover {
+   color: #106010;
+   background-color: #fff;
+}
+
+a {
+   color: #228a22;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+a:hover {
+   background-color: #228a22;
+   color: #fff;
+}
+
+#main {
+   padding: 8px;
+}
+
+@media screen and (max-width: 960px) {
+   #wrap {
+      width: 95%;
+   }
+}
