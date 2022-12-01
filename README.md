@@ -10,6 +10,7 @@ Things that can be improved
 * Folders and subfolders could be obtained automatically instead of being listed manually.
 * I was still learning MVC architecture at the time so there's a fair bit of confusion between Models and Controllers.
 * I did not make use of prepared statements.
+* I did not make a full use of views. Again I was learning MVC architecture at the time.
 
 Permissions
 -----------
